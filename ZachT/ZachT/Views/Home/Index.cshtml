@@ -1,0 +1,33 @@
+﻿@using ZachT.Models;
+@{
+    List<ClsPokemon> poke = ViewBag.poke;
+}
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (ClsPokemon p in poke)
+            {
+                <tr>
+                    <th>@p.PokeID</th>
+                    <th>@p.PokeName</th>
+                    <th>@Html.ActionLink("編輯", "EditPoke", new { id = p.PokeID })</th>     
+                    <th>@Html.ActionLink("刪除", "DeletePoke", new { id = p.PokeID })</th>
+
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+<p>
+        @Html.ActionLink("新增資料", "CreatePoke");
+</p>
+
