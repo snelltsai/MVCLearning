@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ZachT\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|c:\\users\\user\\source\\repos\\zacht\\zacht\\models\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|c:\\users\\user\\documents\\gitfork\\mvclearning\\zacht\\zacht\\controllers\\pokemonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\controllers\\pokemonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\models\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\models\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\source\\repos\\ZachT\\zacht\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\source\\repos\\ZachT\\zacht\\views\\home\\createpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\createpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\source\\repos\\ZachT\\zacht\\views\\home\\editpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\views\\home\\editpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\editpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\source\\repos\\ZachT\\zacht\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\views\\home\\createpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\createpoke.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,63 +35,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PokemonsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Controllers\\PokemonsController.cs",
+              "RelativeDocumentMoniker": "ZachT\\Controllers\\PokemonsController.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Controllers\\PokemonsController.cs",
+              "RelativeToolTip": "ZachT\\Controllers\\PokemonsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T11:12:04.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Models\\DBManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Models\\DBManager.cs",
               "RelativeDocumentMoniker": "ZachT\\Models\\DBManager.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Models\\DBManager.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Models\\DBManager.cs",
               "RelativeToolTip": "ZachT\\Models\\DBManager.cs",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAgwD0AAABUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T09:19:36.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ZachT\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T04:34:16.117Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreatePoke.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Views\\Home\\CreatePoke.cshtml",
-              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\CreatePoke.cshtml",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Views\\Home\\CreatePoke.cshtml",
-              "RelativeToolTip": "ZachT\\Views\\Home\\CreatePoke.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ZachT\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T09:05:28.481Z"
+              "WhenOpened": "2024-06-12T05:02:47.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "EditPoke.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Views\\Home\\EditPoke.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\EditPoke.cshtml",
               "RelativeDocumentMoniker": "ZachT\\Views\\Home\\EditPoke.cshtml",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Views\\Home\\EditPoke.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\EditPoke.cshtml",
               "RelativeToolTip": "ZachT\\Views\\Home\\EditPoke.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T09:05:07.188Z"
+              "WhenOpened": "2024-06-12T04:46:29.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ZachT\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ZachT\\ZachT\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ZachT\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T04:07:41.553Z"
+              "Title": "CreatePoke.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\CreatePoke.cshtml",
+              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\CreatePoke.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\CreatePoke.cshtml",
+              "RelativeToolTip": "ZachT\\Views\\Home\\CreatePoke.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T04:47:36.406Z",
+              "EditorCaption": ""
             }
           ]
         }

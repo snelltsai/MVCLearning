@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="JLearningModelStoreContainer" CdmEntityContainer="JLearningEntities2">
+    <EntitySetMapping Name="Pokemon">
+      <EntityTypeMapping TypeName="JLearningModel.Pokemon">
+        <MappingFragment StoreEntitySet="Pokemon">
+          <ScalarProperty Name="PokeID" ColumnName="PokeID" />
+          <ScalarProperty Name="PokeName" ColumnName="PokeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
