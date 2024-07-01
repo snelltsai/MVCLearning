@@ -16,7 +16,7 @@ namespace ZachT
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Pokemons", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "ToDo", id = UrlParameter.Optional }
             );
         }
     }

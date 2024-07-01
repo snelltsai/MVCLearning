@@ -5,20 +5,111 @@ using System.Web;
 using System.Web.Mvc;
 using ZachT.Models;
 using System.Data.Entity;
+using System.Drawing;
+using System.IO;
 
 namespace ZachT.Controllers
 {
     public class HomeController : Controller
     {
+        dbToDoEntities db = new dbToDoEntities();
+
+        //JLearningEntities2 db = new JLearningEntities2();
+
+
+        public string  ShowArrSum()
+        {
+            string result = "";
+            int[] arr = {1,2,3,4};
+            int sum = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                result += arr[i] + ",";
+                sum += arr[i];
+            }
+            result += "<br/>";
+            result += "sum is : " + sum;
+
+            return result;
+        }
+        [ActionName("ToDo")]
         public ActionResult Index()
         {
-            DBManager dBManager = new DBManager();
-            List<ClsPokemon> poke = dBManager.GetPokemons();
-            ViewBag.poke = poke;
 
-            return View();
+            //DBManager dBManager = new DBManager();
+            //List<ClsPokemon> poke = dBManager.GetPokemons();
+            //ViewBag.poke = poke;
+            var todos = db.tToDo.OrderByDescending(m => m.fLevel).ToList();
+
+            ViewBag.TODO = todos;
+            return View("Upload");
+        }
+        
+        public ActionResult ToDo1()
+        {
+            dbToDoEntities db = new dbToDoEntities();
+            var todos = db.tToDo.OrderByDescending(m => m.fLevel).ToList();
+            return View(todos);
         }
 
+        public ActionResult Create()
+        {
+            return View("NewCreate");
+        }
+
+        [HttpPost]
+        public ActionResult CreateImg(HttpPostedFileBase photo)
+        {
+            if (photo != null)
+            {
+                string fileName = Path.GetFileName(photo.FileName);
+                var path = Path.Combine(Server.MapPath("~/Photos"), fileName);
+                photo.SaveAs(path);
+            }
+            return View("Upload");
+
+        }
+
+        [HttpPost]
+        public ActionResult Create(Todolsit todoo)
+        {
+            tToDo todo = new tToDo();
+
+            //todo.fId = todoo.fId;
+            //todo.fLevel = todoo.fTitle;
+            //todo.fTitle = todoo.fLevel;
+
+            ViewBag.fId = todoo.fId;
+            ViewBag.fLevel = todoo.fLevel;
+            ViewBag.fTitle = todoo.fTitle;
+
+
+            //db.tToDo.Add(todo);
+            //db.SaveChanges();
+
+            return View("NewCreate");
+
+        }
+
+        public ActionResult Delete(int id)
+        {
+            var todo = db.tToDo.Where(m => m.fId == id).FirstOrDefault();
+            db.tToDo.Remove(todo);
+            db.SaveChanges();
+            return RedirectToAction("ToDo");
+        }
+        //public ActionResult ShowName()
+        //{
+        //    var result = db.Pokemon;
+        //    string show = "";
+
+        //    foreach (var m in result)
+        //    {
+        //        show += m.PokeName.ToString();
+        //    }
+        //    ViewBag.show = show;
+        //    return View();
+        //}
         public ActionResult CreatePoke()
         {
             return View();

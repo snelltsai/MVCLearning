@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NewCreate</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="@Url.Action("Create")">
+            <p>ID<input type="text" name="fId" /></p>
+            <p>Title<input type="text" name="fTitle" /></p>
+            <p>Level<input type="text" name="fLevel" /></p>
+
+            <p><input type="submit" value=" Create" /></p>
+        </form>
+
+        @{ 
+            if (ViewBag.fId != null && ViewBag.fTitle != null && ViewBag.fLevel != null)
+            {
+                <p>Complete</p>
+                <p>ID : @ViewBag.fId | Title : @ViewBag.fTitle | Level : @ViewBag.fLevel</p>
+            }
+        }
+    </div>
+</body>
+</html>

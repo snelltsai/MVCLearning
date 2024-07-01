@@ -137,6 +137,21 @@
     </Compile>
     <Compile Include="Models\ClsPokemon.cs" />
     <Compile Include="Models\DBManager.cs" />
+    <Compile Include="Models\dbToDoModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbToDoModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbToDoModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbToDoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbToDoModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbToDoModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -155,9 +170,17 @@
     <Compile Include="Models\Pokemon.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Todolsit.cs" />
+    <Compile Include="Models\tToDo.cs">
+      <DependentUpon>dbToDoModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\dbToDo.mdf" />
+    <Content Include="App_Data\dbToDo_log.ldf">
+      <DependentUpon>dbToDo.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -177,6 +200,16 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\dbToDoModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbToDoModel.edmx</DependentUpon>
+      <LastGenOutput>dbToDoModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbToDoModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbToDoModel.edmx</DependentUpon>
+      <LastGenOutput>dbToDoModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -199,6 +232,13 @@
     </EntityDeploy>
     <Content Include="Models\Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="Models\dbToDoModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbToDoModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbToDoModel.edmx.diagram">
+      <DependentUpon>dbToDoModel.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -232,9 +272,13 @@
     <Content Include="Views\Pokemons\Details.cshtml" />
     <Content Include="Views\Pokemons\Edit.cshtml" />
     <Content Include="Views\Pokemons\Index.cshtml" />
+    <Content Include="Views\Home\ShowName.cshtml" />
+    <Content Include="Views\Home\ToDo.cshtml" />
+    <Content Include="Views\Home\Create.cshtml" />
+    <Content Include="Views\Home\NewCreate.cshtml" />
+    <Content Include="Views\Home\Upload.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\RouteTest\" />
   </ItemGroup>
   <ItemGroup>
