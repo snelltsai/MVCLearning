@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|c:\\users\\user\\documents\\gitfork\\mvclearning\\zacht\\zacht\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|c:\\users\\user\\documents\\gitfork\\mvclearning\\zacht\\zacht\\views\\home\\gonm2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\gonm2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|c:\\users\\user\\documents\\gitfork\\mvclearning\\zacht\\zacht\\models\\nightmarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\models\\nightmarket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\zacht\\models\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\models\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|c:\\users\\user\\documents\\gitfork\\mvclearning\\zacht\\zacht\\views\\home\\gonm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2072EC71-2B6B-4206-AAB0-3081475D7434}|ZachT\\ZachT.csproj|solutionrelative:zacht\\views\\home\\gonm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GoNM2.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\GoNM2.cshtml",
+              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\GoNM2.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\GoNM2.cshtml",
+              "RelativeToolTip": "ZachT\\Views\\Home\\GoNM2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T02:53:45.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoNM.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\GoNM.cshtml",
+              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\GoNM.cshtml",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\GoNM.cshtml",
+              "RelativeToolTip": "ZachT\\Views\\Home\\GoNM.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-02T01:49:06.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NightMarket.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Models\\NightMarket.cs",
+              "RelativeDocumentMoniker": "ZachT\\Models\\NightMarket.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Models\\NightMarket.cs",
+              "RelativeToolTip": "ZachT\\Models\\NightMarket.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T01:39:19.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Upload.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\Upload.cshtml",
               "RelativeDocumentMoniker": "ZachT\\Views\\Home\\Upload.cshtml",
@@ -49,35 +92,9 @@
               "RelativeDocumentMoniker": "ZachT\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ZachT\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAgwEcAAAAAAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAA3wDcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T05:46:12.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "ZachT\\Views\\Home\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "ZachT\\Views\\Home\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-01T02:14:57.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DBManager.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Models\\DBManager.cs",
-              "RelativeDocumentMoniker": "ZachT\\Models\\DBManager.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\Gitfork\\MVCLearning\\ZachT\\ZachT\\Models\\DBManager.cs",
-              "RelativeToolTip": "ZachT\\Models\\DBManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T09:19:36.255Z",
               "EditorCaption": ""
             }
           ]

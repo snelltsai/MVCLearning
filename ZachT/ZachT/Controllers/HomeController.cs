@@ -32,7 +32,7 @@ namespace ZachT.Controllers
 
             return result;
         }
-        [ActionName("ToDo")]
+        
         public ActionResult Index()
         {
 
@@ -52,6 +52,17 @@ namespace ZachT.Controllers
             return View(todos);
         }
 
+        [ActionName("ToDo")]
+        public ActionResult GoNM()
+        {
+            List<NightMarket> nightMarkets = new List<NightMarket>();
+
+            nightMarkets.Add(new NightMarket{MarketID=1, Name="A夜市",Address="Tainan"});
+            nightMarkets.Add(new NightMarket { MarketID = 2, Name = "B夜市", Address = "Taiwan" });
+            //nightMarkets.Add(new NightMarket { MarketID = 3, Name = "C夜市", Address = "台東市" });
+
+            return View("GoNM2",nightMarkets);
+        }
         public ActionResult Create()
         {
             return View("NewCreate");

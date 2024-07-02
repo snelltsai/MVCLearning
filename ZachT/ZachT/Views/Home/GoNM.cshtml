@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ZachT.Models.NightMarket>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GoNM</title>
+</head>
+<body>
+    <div> 
+        <table >
+            <tr>
+                <th>編號</th>
+                <th>名稱</th>
+                <th>地址</th>
+            </tr>
+            @{ 
+                string imgName;
+
+                foreach (var item in Model)
+                {
+                    imgName = item.MarketID + ".jpg";
+                
+
+                    <tr>
+                        <td>@item.MarketID</td>
+                        <td>
+                            @item.Name<br />
+                            <img src="~/Photos/@imgName"  />
+
+                        </td>
+                        <td>@item.Address</td>
+                        <td>
+                            <a href="https://www.google.com.tw/maps/place/@item.Address" target="_blank">路線規劃</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+</body>
+</html>
