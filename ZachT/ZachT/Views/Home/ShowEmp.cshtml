@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ZachT.Models.tEmployee>
+
+@{
+    ViewBag.Title = "ShowEmp";
+}
+
+<h2>CreateEmp</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateEmp")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.fName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fGender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fMail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fSalary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fEmploymentData)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.fName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fGender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fMail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fSalary)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fEmploymentData)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.fEmpId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.fEmpId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.fEmpId })
+        </td>
+    </tr>
+}
+
+</table>

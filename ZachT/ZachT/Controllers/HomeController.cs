@@ -13,26 +13,91 @@ namespace ZachT.Controllers
     public class HomeController : Controller
     {
         dbToDoEntities db = new dbToDoEntities();
+        dbEmpModelEntities dbEmp = new dbEmpModelEntities();
 
+        public ActionResult ShowEmp()
+        {
+            var employees = dbEmp.tEmployee.ToList();
+            return View("ShowEmp", employees);
+        }
+
+        public ActionResult CreateEmp()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult CreateEmp(tEmployee emp)
+        {
+            if (ModelState.IsValid)
+            {
+                ViewBag.Error = false;
+                var temp = dbEmp.tEmployee
+                    .Where(m=>m.fEmpId == emp.fEmpId).FirstOrDefault();
+                if (temp != null)
+                {
+                    ViewBag.Error = true;
+                    return View(emp);
+                }
+                dbEmp.tEmployee.Add(emp);
+                dbEmp.SaveChanges();
+                return RedirectToAction("ShowEmp");
+            }
+            return View();
+        }
         //JLearningEntities2 db = new JLearningEntities2();
 
-
+        
         public string  ShowArrSum()
         {
             string result = "";
-            int[] arr = {1,2,3,4};
-            int sum = 0;
-            for (int i = 0; i < arr.Length; i++)
+            //int[] arr = {1,2,3,4};
+            //int sum = 0;
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    result += arr[i] + ",";
+            //    sum += arr[i];
+            //}
+            //result += "<br/>";
+            //result += "sum is : " + sum;
+
+            int[] score = new int[] {79,99,54};
+            var res = score.OrderByDescending(m=>m);
+            result = "遞減排序:";
+            foreach(var item in res)
             {
-                result += arr[i] + ",";
-                sum += arr[i];
+                result += item + ",";
             }
-            result += "<br/>";
-            result += "sum is : " + sum;
+
+            result += "<br />";
+            result += "總和: " + res.Sum();
 
             return result;
         }
         
+        public string LoginMember(string uid, string pwd)
+        {
+            List<Member> members = new List<Member>();
+            members.Add(new Member {UId="Tom", Pwd="tom",Name="湯瑪"});
+            members.Add(new Member { UId = "Jack", Pwd = "jack", Name = "捷克" });
+            members.Add(new Member { UId = "Mary", Pwd = "mary", Name = "馬利" });
+
+            var res = members.Where(m => m.UId == uid && m.Pwd == pwd).FirstOrDefault();
+
+            string result = string.Empty;
+
+            if (res != null)
+            {
+                result = res.Name + "Welcome";
+            }
+            else
+            {
+                result = "登入錯誤";
+            }
+
+            return result;
+        }
+
         public ActionResult Index()
         {
 
@@ -52,7 +117,7 @@ namespace ZachT.Controllers
             return View(todos);
         }
 
-        [ActionName("ToDo")]
+        //[ActionName("ToDo")]
         public ActionResult GoNM()
         {
             List<NightMarket> nightMarkets = new List<NightMarket>();

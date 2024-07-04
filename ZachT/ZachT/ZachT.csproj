@@ -136,6 +136,21 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ClsPokemon.cs" />
+    <Compile Include="Models\dbEmpModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmpModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbEmpModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmpModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\dbEmpModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbEmpModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\DBManager.cs" />
     <Compile Include="Models\dbToDoModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -152,6 +167,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbToDoModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Member.cs" />
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -171,6 +188,9 @@
     <Compile Include="Models\Pokemon.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\tEmployee.cs">
+      <DependentUpon>dbEmpModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Todolsit.cs" />
     <Compile Include="Models\tToDo.cs">
       <DependentUpon>dbToDoModel.tt</DependentUpon>
@@ -178,6 +198,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\dbEmpModel.mdf" />
+    <Content Include="App_Data\dbEmpModel_log.ldf">
+      <DependentUpon>dbEmpModel.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\dbToDo.mdf" />
     <Content Include="App_Data\dbToDo_log.ldf">
       <DependentUpon>dbToDo.mdf</DependentUpon>
@@ -201,6 +225,16 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\dbEmpModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbEmpModel.edmx</DependentUpon>
+      <LastGenOutput>dbEmpModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\dbEmpModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>dbEmpModel.edmx</DependentUpon>
+      <LastGenOutput>dbEmpModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\dbToDoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>dbToDoModel.edmx</DependentUpon>
@@ -241,6 +275,13 @@
     <Content Include="Models\dbToDoModel.edmx.diagram">
       <DependentUpon>dbToDoModel.edmx</DependentUpon>
     </Content>
+    <EntityDeploy Include="Models\dbEmpModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>dbEmpModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\dbEmpModel.edmx.diagram">
+      <DependentUpon>dbEmpModel.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -280,6 +321,8 @@
     <Content Include="Views\Home\Upload.cshtml" />
     <Content Include="Views\Home\GoNM.cshtml" />
     <Content Include="Views\Home\GoNM2.cshtml" />
+    <Content Include="Views\Home\ShowEmp.cshtml" />
+    <Content Include="Views\Home\CreateEmp.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\RouteTest\" />
